@@ -16,7 +16,7 @@
 		<div id="content" class="sidebar-or-content">
 			<h2 id="content-header">At a Glance</h2>
 
-			<div id="rocks-image"> <?php include "expanding-image.php" ?> </div>
+			<div id="rocks-image"> <?php $width=100; include "expanding-image.php" ?> </div>
 
 			<p>Hi - welcome to my website! I wrote it from scratch for my web programming class.
 			Hope you like it!</p>

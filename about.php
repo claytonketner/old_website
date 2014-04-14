@@ -45,16 +45,16 @@
 				<p>When I'm not doing schoolwork (read: never), I enjoy bicycling, snowboarding, spending time with my 
 				friends and family, and combining my ME and CS skills by tinkering with robotics and other side projects.</p>
 
-				<div id="snowboard-image"> <?php include "expanding-image.php" ?> </div>
-				<div id="assembly-image"> <?php include "expanding-image.php" ?> </div>
+				<div id="snowboard-image"> <?php $width=100; include "expanding-image.php" ?> </div>
+				<div id="assembly-image"> <?php $width=100; include "expanding-image.php" ?> </div>
 
 				<p>In high school I rowed for the NorCal crew team for three years. My third year, I qualified for the 
 				USRowing Youth National Championships in Cincinnati, OH in the lightweight double as stroke seat. 
 				My boatmate, Dru, and I finished 8th in the nation!</p>
 
-				<div id="adjusting-image"> <?php include "expanding-image.php" ?> </div>
-				<div id="double-image"> <?php include "expanding-image.php" ?> </div>
-				<div id="overhead-image"> <?php include "expanding-image.php" ?> </div>
+				<div id="adjusting-image"> <?php $width=100; include "expanding-image.php" ?> </div>
+				<div id="double-image"> <?php $width=100; include "expanding-image.php" ?> </div>
+				<div id="overhead-image"> <?php $width=100; include "expanding-image.php" ?> </div>
 
 			</div>
 
