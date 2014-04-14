@@ -24,14 +24,15 @@
 				<li>SLAM and fastSLAM</li>
 			</ul>
 
-			<p>Some of the algorithms learned were implemented in the lab. One of the assignments was to implement an interactive virtual particle
-			filter, which I did using Processing. The code can be found 
+			<p>Some of the algorithms learned were implemented in the lab. One of the assignments was to implement an 
+			interactive virtual particle filter, which I did using Processing. The code can be found 
 			<a href="https://github.com/claytonketner/ParticleFilterSimulation" target="_blank">here on GitHub</a>.</p>
 
 			<h3>Video Demonstration</h3>
 			<p>Here are the results of a few of the lab assignments narrated by yours truly.</p>
 
-			<iframe width="960" height="540" src="//www.youtube.com/embed/Vdz7Zc5g5yU?rel=0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="960" height="540" src="//www.youtube.com/embed/Vdz7Zc5g5yU?rel=0" frameborder="0" 
+			allowfullscreen></iframe>
 
 		</div>
 		<div class="after-float"></div>

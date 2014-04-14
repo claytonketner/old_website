@@ -48,7 +48,7 @@
 			</div></a>
 			</div>
 
-			<div class="three-img-wrapper">
+			<div class="three-img-wrapper last">
 			<a href="robotarmmk2.php"><div class="three-img-link">
 			<img class="three-img" src="images/Robot Arm Mk2/design/arm assem.jpg">
 			<div class="three-img-text">I designed, built, and coded my own robotic arm from scratch.</div>

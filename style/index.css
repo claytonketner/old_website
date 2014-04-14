@@ -1,8 +1,13 @@
 .three-img-wrapper
 {
-	width: 28%;
+	width: 30%;
 	margin-right: 5%;
 	float: left;
+}
+
+.three-img-wrapper.last
+{
+	margin-right: 0 !important;
 }
 
 .three-img-link
