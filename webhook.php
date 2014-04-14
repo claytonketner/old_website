@@ -1,3 +1,4 @@
 <?php
-shell_exec("cd ~/website; git pull");
-print_r($_POST);
+
+$output = shell_exec("cd ~/website; git pull");
+echo $output;
