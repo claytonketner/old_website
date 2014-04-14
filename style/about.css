@@ -1,0 +1,12 @@
+.top-image-wrapper
+{
+	height: 300px;
+	overflow: hidden;
+}
+
+.top-image
+{
+	width: 100%;
+	position: relative;
+	top: -20%;
+}

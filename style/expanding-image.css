@@ -1,0 +1,15 @@
+.expanding-image-wrapper
+{
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.expanding-image-wrapper img
+{
+	position: absolute;
+	width: 100%;
+	border-radius: 5px;
+}

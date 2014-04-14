@@ -5,6 +5,7 @@
 	background: -o-linear-gradient(#A3263B, #691826); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#A3263B, #691826); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#A3263B, #691826); /* Standard syntax */
+	margin-bottom: 5px;
 }
 
 #banner
@@ -40,17 +41,24 @@
 
 #navBar-wrapper
 {
+	position: relative;
 	min-width: 700px;
 	width: 100%;
-	height: 60px;
+	/*height: 60px;*/
 	margin: auto;
-
+	z-index: 1000;
+	top: 0;
 	background-color: #571520;
+}
+
+#navBar-wrapper.fixed
+{
+	position: fixed;
+	top: 0;
 }
 
 #navBar
 {
-	margin-top: 5px;
 }
 
 #textNav
@@ -94,7 +102,9 @@
 
 #textNav a.currentPage
 {
-	color: white !important;
+	color: white;
+	text-shadow: 0px 2px 0px black;
+	pointer-events: none; /*Make unclickable (not critical)*/
 }
 
 #textNav .navItem
@@ -129,6 +139,6 @@
 	height: 100px;
 	margin-top: 10px;
 	float: right;
-	border-radius: 10px;
+	border-radius: 5px;
 	overflow: hidden;
 }

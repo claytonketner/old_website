@@ -1,0 +1,24 @@
+.three-img-wrapper
+{
+	width: 28%;
+	margin-right: 5%;
+	float: left;
+}
+
+.three-img-link
+{
+	overflow: hidden;
+	background-color: #C4C4C4;
+	border-radius: 5px;
+}
+
+.three-img
+{
+	width: 100%;
+}
+
+.three-img-text
+{
+	text-align: center;
+	padding: 10px;
+}

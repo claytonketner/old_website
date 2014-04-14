@@ -3,9 +3,16 @@ body
 	margin: 0;
 }
 
+#footer
+{
+	text-align: center;
+	color: #AAAAAA;
+	margin: 15px 0 15px 0;
+}
+
 div.content-sized
 {
-	max-width: 820px;
+	max-width: 960px;
 	margin: 0 auto;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -13,20 +20,35 @@ div.content-sized
 
 div#all-content-wrapper
 {
+	position: relative;
 	background-color: #EEEEEE;
-	margin-top: 15px;
+	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	/*overflow: auto;*/
 }
 
-h2.content-header
+.after-float
+{
+	clear: both;
+}
+
+h2#content-header
 {
 	margin-top: 5px;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 100;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+h3
+{
+	margin-top: 15px;
+	margin-bottom: -15px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
 	font-style: italic;
 	text-transform: uppercase;
 }
@@ -34,4 +56,20 @@ h2.content-header
 div#content a
 {
 	color: #A3263B;
+}
+
+.two-column
+{
+	width: 46%;
+	display: inline-block;
+}
+
+.two-column.left
+{
+	float: left;
+}
+
+.two-column.right
+{
+	float: right;
 }
