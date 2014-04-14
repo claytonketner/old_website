@@ -23,9 +23,8 @@
 			<h3>See what other people have written:</h3><br>
 			<table>
 				<tr id="header-row"><td>Date</td><td>Name</td><td>Message</td></tr>
-				
+				<?php include "guestbook-contents.php" ?>
 			</table>
-			<?php include "guestbook-contents.php" ?>
 
 		</div>
 		<div class="after-float"></div>
