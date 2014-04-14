@@ -19,7 +19,7 @@
 			<div id="rocks-image"> <?php $width=100; include "expanding-image.php" ?> </div>
 
 			<p>Hi - welcome to my website! I wrote it from scratch for my web programming class.
-			Hope you like it!</p>
+			Hope you like it! sasdfasdfsfasdf</p>
 
 			<p>I am a 5th year undergraduate student at the University of Southern California studying Mechanical 
 			Engineering and Computer Science. I'm quick to learn and can adapt to changing environments, and am looking 
