@@ -5,7 +5,7 @@ require_once("database.php");
 $dbConn = Database::connect();
 $query = $dbConn->prepare("SELECT name, message, date 
 						   FROM guestbook
-						   ORDER BY date ASC");
+						   ORDER BY date DESC");
 $query->execute();
 
 foreach ($query as $row)
