@@ -14,17 +14,19 @@
 			<h2 id="content-header">Template Header</h2> <a href="#results">Skip to result</a>
 
 			<h3>Add yourself to the guest book:</h3>
+
 			<form name="guest-info" action="submit.php" method="POST">
 				<input type="text" name="name" placeholder="John Doe"><br>
-				<textarea rows="4" cols="60" name="message"></textarea><br>
+				<textarea rows="6" cols="60" name="message"></textarea><br>
 				<input type="submit" value="Submit">
 			</form>
 
 			<h3>See what other people have written:</h3>
 			<table>
 				<tr id="header-row"><td>Name</td><td>Date</td><td>Message</td></tr>
-				<?php include "guestbook-contents.php" ?>
+				
 			</table>
+			<?php include "guestbook-contents.php" ?>
 
 		</div>
 		<div class="after-float"></div>

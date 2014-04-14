@@ -7,5 +7,5 @@ $query->execute();
 foreach ($query as $row)
 {
 	echo "Name:"
-	echo $row;
+	print_r($row);
 }
