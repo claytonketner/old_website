@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<?php include "head.php" ?>
+	<link rel="stylesheet" href="style/guestbook.css">
 </head>
 
 <body>
@@ -11,7 +12,7 @@
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
 		<div id="content" class="sidebar-or-content">
-			<h2 id="content-header">Template Header</h2>
+			<h2 id="content-header">Guest Log Book</h2>
 			<h3>Add yourself to the guest book:</h3><br>
 
 			<form name="guest-info" action="submit.php" method="POST">
