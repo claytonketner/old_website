@@ -11,21 +11,35 @@ $(document).ready(function()
 
 	$(".expanding-image-wrapper").mouseover(function()
 	{
-		showImage($(this));
+		// showImage($(this));
 	});
 
 	$(".expanding-image-wrapper").mouseout(function()
 	{
-		hideImage($(this));
+		// hideImage($(this));
 	});
 
-	$(".expanding-image-wrapper").click(function() // For mobile
+	$(".expanding-image-wrapper").click(function()
 	{
 		if ($(this).hasClass("hiding"))
 			showImage($(this));
 		else
 			hideImage($(this));
-	})
+	});
+
+	// $(document).click(function(event)
+	// {
+	// 	if ($(event.target).parents().index($(".expanding-image-wrapper")) == -1)
+	// 	{
+	// 		$(document).find(".expanding-image-wrapper").each(function()
+	// 		{
+	// 			if (!$(this).hasClass("hiding"))
+	// 			{
+	// 				hideImage($(this));
+	// 			}
+	// 		});
+	// 	}
+	// });
 });
 
 function prepareImages()
@@ -50,6 +64,18 @@ function stopAnimation(obj)
 function showImage(obj)
 {
 	stopAnimation($(obj));
+
+	$(document).find(".expanding-image-wrapper").each(function()
+	{
+		if ($(this) != $(obj) && !$(this).hasClass("hiding"))
+		{
+			var imgHeight = $(this).find("img").height();
+			$(this).find("img").animate({ top: -imgHeight/2 }, showHideSpeed);
+			$(this).animate({ height: hiddenHeight }, showHideSpeed);
+			$(this).addClass("hiding");
+		}
+	});
+
 	var imgHeight = $(obj).find("img").height();
 	$(obj).find("img").animate({ top: 0 }, showHideSpeed);
 	$(obj).animate({ height: imgHeight }, showHideSpeed);
