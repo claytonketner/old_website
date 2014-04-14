@@ -25,11 +25,11 @@
 				<div class="navItem"><a href="robotarmmk2.php">Robot Arm Mk2</a></div>
 				<div class="navItem"><a href="introrobotics.php">Intro to Robotics</a></div>
 				<div class="navItem"><a href="seniorprojectrobot.php">Senior Project Robot</a></div>
-				<div class="navItem"><a href="seniordesign.php">Senior Design Project</a></div>
+				<!-- <div class="navItem"><a href="seniordesign.php">Senior Design Project</a></div> -->
+				<div class="navItem lastNavItem"><a href="hammerstand.php">Hammer Stand</a></div>
 				<div class="navItem lastNavItem"><a href="cad.php">CAD Work</a></div>
 				<br>
 				<!-- <div class="navItem"><a href="3dprinting.php">3D Printing</a></div> -->
-				<div class="navItem lastNavItem"><a href="hammerstand.php">Hammer Stand</a></div>
 			</div>
 			<div id="iconNav">
 				<div class="navItem"><a href="https://github.com/claytonketner/general-resume/blob/master/resume.pdf?raw=true" target="_blank"><img src="images/icons/resume icon.png" alt="resume"></a></div>
