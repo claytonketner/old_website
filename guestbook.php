@@ -21,7 +21,7 @@
 			</form>
 
 			<h3>See what other people have written:</h3><br>
-			<table border="1">
+			<table border="1" style="width: 100%;">
 				<tr id="header-row"><td>Date</td><td>Name</td><td>Message</td></tr>
 				<?php include "guestbook-contents.php" ?>
 			</table>
