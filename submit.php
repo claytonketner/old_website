@@ -7,6 +7,7 @@ $message = $_POST["message"];
 if (preg_match("/^[a-zA-Z ]+$/", $name) != 1)
 {
 	header("Location: guestbook.php?errorMessage=true");
+	return;
 }
 
 $dbConn = Database::connect();
@@ -17,3 +18,4 @@ $query->bindParam(":message", $message, PDO::PARAM_STR);
 $query->execute();
 
 header("Location: guestbook.php");
+return;
