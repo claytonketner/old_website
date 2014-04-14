@@ -26,7 +26,7 @@
 				<div class="navItem"><a href="introrobotics.php">Intro to Robotics</a></div>
 				<div class="navItem"><a href="seniorprojectrobot.php">Senior Project Robot</a></div>
 				<!-- <div class="navItem"><a href="seniordesign.php">Senior Design Project</a></div> -->
-				<div class="navItem lastNavItem"><a href="hammerstand.php">Hammer Stand</a></div>
+				<div class="navItem"><a href="hammerstand.php">Hammer Stand</a></div>
 				<div class="navItem lastNavItem"><a href="cad.php">CAD Work</a></div>
 				<br>
 				<!-- <div class="navItem"><a href="3dprinting.php">3D Printing</a></div> -->
