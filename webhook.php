@@ -1,5 +1,4 @@
 <?php
 
-shell_exec("cd ~/website");
-$output = shell_exec("git pull");
+$output = shell_exec("cd ~/website && git pull");
 echo $output;
