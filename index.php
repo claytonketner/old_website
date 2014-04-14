@@ -18,8 +18,6 @@
 
 			<div id="rocks-image"> <?php $width=100; include "expanding-image.php" ?> </div>
 
-			<p>adflkjsadflkjsadf</p>
-
 			<p>Hi - welcome to my website! I wrote it from scratch for my web programming class.
 			Hope you like it! Visit the <a href="guestbook.php">guest book</a> if you'd like.</p>
 
