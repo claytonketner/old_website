@@ -3,7 +3,9 @@ require_once("database.php");
 
 
 $dbConn = Database::connect();
-$query = $dbConn->prepare("SELECT name, message, date FROM guestbook");
+$query = $dbConn->prepare("SELECT name, message, date 
+						   FROM guestbook
+						   ORDER BY date");
 $query->execute();
 
 foreach ($query as $row)
