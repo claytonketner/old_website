@@ -24,7 +24,8 @@ if (isset($_GET["errorMessage"]))
 			<h3>Add yourself to the guest book:</h3><br>
 
 			<form name="guest-info" action="submit.php" method="POST">
-				<input type="text" name="name" placeholder="John Doe"><p id="errorMessage"><?= $errorMessage ?></p><br>
+				<input type="text" name="name" placeholder="John Doe">
+				<span id="errorMessage"><?= $errorMessage ?></span><br>
 				<textarea rows="6" cols="60" name="message" placeholder="Message"></textarea><br>
 				<input type="submit" value="Submit">
 			</form>
