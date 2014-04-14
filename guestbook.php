@@ -13,15 +13,15 @@
 		<div id="content" class="sidebar-or-content">
 			<h2 id="content-header">Template Header</h2> <a href="#results">Skip to result</a>
 
-			<h3>Add yourself to the guest book:</h3>
+			<h3>Add yourself to the guest book:</h3><br>
 
 			<form name="guest-info" action="submit.php" method="POST">
 				<input type="text" name="name" placeholder="John Doe"><br>
-				<textarea rows="6" cols="60" name="message"></textarea><br>
+				<textarea rows="6" cols="60" name="message" placeholder="Message"></textarea><br>
 				<input type="submit" value="Submit">
 			</form>
 
-			<h3>See what other people have written:</h3>
+			<h3>See what other people have written:</h3><br>
 			<table>
 				<tr id="header-row"><td>Name</td><td>Date</td><td>Message</td></tr>
 				
