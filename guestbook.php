@@ -1,3 +1,11 @@
+<?php
+$errorMessage = "";
+if (isset($_GET["errorMessage"]))
+{
+	$errorMessage = "Name must only contain letters and spaces.";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +24,7 @@
 			<h3>Add yourself to the guest book:</h3><br>
 
 			<form name="guest-info" action="submit.php" method="POST">
-				<input type="text" name="name" placeholder="John Doe"><br>
+				<input type="text" name="name" placeholder="John Doe"><p id="errorMessage"><?= $errorMessage ?></p><br>
 				<textarea rows="6" cols="60" name="message" placeholder="Message"></textarea><br>
 				<input type="submit" value="Submit">
 			</form>
