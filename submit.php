@@ -10,3 +10,5 @@ $query = $dbConn->prepare("INSERT INTO guestbook (name, message, date)
 $query->bindParam(":name", $name, PDO::PARAM_STR, 30);
 $query->bindParam(":message", $message, PDO::PARAM_STR);
 $query->execute();
+
+header("Location: guestbook.php");

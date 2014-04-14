@@ -11,8 +11,7 @@
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
 		<div id="content" class="sidebar-or-content">
-			<h2 id="content-header">Template Header</h2> <a href="#results">Skip to result</a>
-
+			<h2 id="content-header">Template Header</h2>
 			<h3>Add yourself to the guest book:</h3><br>
 
 			<form name="guest-info" action="submit.php" method="POST">
@@ -23,7 +22,7 @@
 
 			<h3>See what other people have written:</h3><br>
 			<table>
-				<tr id="header-row"><td>Name</td><td>Date</td><td>Message</td></tr>
+				<tr id="header-row"><td>Date</td><td>Name</td><td>Message</td></tr>
 				
 			</table>
 			<?php include "guestbook-contents.php" ?>

@@ -8,6 +8,9 @@ $query->execute();
 
 foreach ($query as $row)
 {
-	echo "Name:";
-	print_r($row);
+	echo "<tr>";
+	echo "<td>" . $row["date"] . "</td>";
+	echo "<td>" . $row["name"] . "</td>";
+	echo "<td>" . $row["message"] . "</td>";
+	echo "</tr>";
 }
