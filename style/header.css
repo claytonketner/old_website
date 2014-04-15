@@ -59,12 +59,15 @@
 
 #navBar
 {
+	/*white-space: nowrap;*/
+	/*overflow: auto;*/
 }
 
 #textNav
 {
 	font-family: "Open Sans", Helvetica, sans-serif;
 	font-size: 12px;
+	/*word-wrap: break-word;*/
 
 	text-align: left;
 	float: left;
@@ -92,12 +95,17 @@
 	height: 35px;
 	padding-top: 12px;
 	padding-bottom: 13px;
+
+	/*display: inline-block;*/
+	/*white-space: nowrap;*/
 }
 
 .navItem
 {
 	color: #C4C4C4;
 	float: left;
+	display: inline-block;
+	white-space: normal;
 }
 
 #textNav a.currentPage
