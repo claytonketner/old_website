@@ -55,9 +55,12 @@
 ?>
 
 <script type="text/javascript">
-	$(".slideshow-image").ready(function()
+	$(document).ready(function()
 	{
-		prepareSlideshow($(this).find(".slideshow-image-wrapper"));
+		$(".slideshow-image").ready(function()
+		{
+			prepareSlideshow($(this).find(".slideshow-image-wrapper"));
+		});
 	});
 </script>
 
