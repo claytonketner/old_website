@@ -3,7 +3,6 @@
 <head>
 	<?php include "common/head.php" ?>
 	<link rel="stylesheet" href="style/about.css">
-	<script type="text/javascript" src="scripts/about.js"></script>
 </head>
 
 <body>
