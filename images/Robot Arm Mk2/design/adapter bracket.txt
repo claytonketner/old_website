@@ -1,0 +1,5 @@
+TITLE
+Adapter Bracket
+
+DESCRIPTION
+This part fits on the square end of the arm segment.

@@ -129,9 +129,6 @@ function prepareSlideshow(container)
 	{
 		$(this).load(function()
 		{
-			// Set left attribute
-			$(this).css("left", index*pictureWidth + "px");
-
 			// Align vertically
 			var currentImageHeight = $(this).height();
 
@@ -178,7 +175,7 @@ function calculateCurrentPictureIndex(container)
 	// Make sure it's not animating
 	while (firstImageLeft % calculateWidth(container) != 0)
 	{
-		delay(100);
+		$(container).delay(100);
 	}
 
 	return -1*firstImageLeft/calculateWidth(container);

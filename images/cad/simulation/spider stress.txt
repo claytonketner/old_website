@@ -1,0 +1,5 @@
+TITLE
+Stress Analysis
+
+DESCRIPTION
+Torsion on a spider bracket.

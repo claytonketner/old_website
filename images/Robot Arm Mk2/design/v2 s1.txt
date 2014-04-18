@@ -1,0 +1,5 @@
+TITLE
+Arm Side 1
+
+DESCRIPTION
+You can see the cut that allows the arm to rotate to 35 degrees.

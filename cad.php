@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php include "head.php" ?>
+	<?php include "common/head.php" ?>
 	<script type="text/javascript" src="scripts/cad.js"></script>
 </head>
 
 <body>
 
-<?php include "header.php" ?>
+<?php include "common/header.php" ?>
 
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
@@ -20,7 +20,18 @@
 			<h3>AME 408 - Finite Element Analysis (FEA)</h3>
 			<p>Advanced modeling:</p>
 
-			<div id="modeling-slideshow" style="text-align: center"><?php include "slideshow.php" ?></div>
+			<div id="modeling-slideshow" style="text-align: center">
+			<?php 
+				$width = "500";
+				$images = array(
+					"images/cad/modeling/funnel.png",
+					"images/cad/modeling/funnel detail.png",
+					"images/cad/modeling/pump thing.png",
+					"images/cad/modeling/pump thing section.png"
+				);
+				include "features/slideshow.php" ;
+			?>
+			</div>
 
 			<p>Stress analysis, frequency analysis, and thermal analysis:</p>
 
@@ -29,7 +40,19 @@
 				<li>2-D simplifications to improve accuracy and reduce computation time.</li>
 			</ul>
 
-			<div id="simulation-slideshow" style="text-align: center"><?php include "slideshow.php" ?></div>
+			<div id="simulation-slideshow" style="text-align: center">
+			<?php 
+				$width = "500";
+				$images = array(
+					"images/cad/simulation/bracket stress.png",
+					"images/cad/simulation/spider stress.png",
+					"images/cad/simulation/freq analysis 1.png",
+					"images/cad/simulation/freq analysis 2.png",
+					"images/cad/simulation/pressure vessel.png"
+				);
+				include "features/slideshow.php";
+			?>
+			</div>
 
 			<h3>AME 308 - Introduction to SolidWorks and Solid Edge</h3>
 			<p>Here is my final project for the SolidWorks part of the course. I modeled my bike.</p>
@@ -45,14 +68,14 @@
 
 			<p>Note: the bolts on the flywheel don't rotate due to a bug in Solid Edge.</p>
 			<p>You can download the part drawings for my Solid Edge project 
-			<a href="other/SE Final Project Drawings.pdf" target="_blank">here</a></p>
+			<a href="files/SE Final Project Drawings.pdf" target="_blank">here</a></p>
 
 		</div>
 		<div class="after-float"></div>
 	</div>
 </div>
 
-<?php include "footer.php" ?>
+<?php include "common/footer.php" ?>
 
 </body>
 </html>

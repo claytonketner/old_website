@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php include "head.php" ?>
-	<script type="text/javascript" src="scripts/robotarmmk2.js"></script>
-	<script type="text/javascript" src="scripts/slideshow.js"></script>
-
+	<?php include "common/head.php" ?>
 </head>
 
 <body>
 
-<?php include "header.php" ?>
+<?php include "common/header.php" ?>
 
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
@@ -18,7 +15,9 @@
 
 			<p>This is the second version of a robotic arm I made over the summer of 2012. I worked on it on and off over two months.</p>
 
-			<div id="header-image"> <?php $width = "80"; include "expanding-image.php" ?> </div>
+			<div id="header-image"> 
+				<?php $width = "80"; $src="images/Robot Arm Mk2/manufacture/assembly.jpg"; include "features/expanding-image.php"; ?> 
+			</div>
 
 			<h3>Idea</h3>
 			<p>After the first version, I decided to switch to using stepper motors due to their better resolution. Hobby servos are easy to use
@@ -34,7 +33,20 @@
 			To fix this, I added some cuts which allow the arms to rotate down to 35 degrees.</p>
 
 			<p>Here's a slideshow of my SolidWorks models:</p>
-			<div id="design-slideshow" style="text-align: center"><?php include "slideshow.php" ?></div>
+			<div id="design-slideshow" style="text-align: center">
+				<?php
+					$width = "500";
+					$images = array(
+						"images/Robot Arm Mk2/design/v2 s1.jpg",
+						"images/Robot Arm Mk2/design/v2 s2.jpg",
+						"images/Robot Arm Mk2/design/adapter bracket.jpg",
+						"images/Robot Arm Mk2/design/transition bracket.jpg",
+						"images/Robot Arm Mk2/design/stepper mount.jpg",
+						"images/Robot Arm Mk2/design/arm assem.jpg"
+					);
+					include "features/slideshow.php";
+				?>
+			</div>
 
 			<hr><h3>Manufacture</h3>
 			<p>My first design I cut out of a cutting board and I tried using 3D toolpaths, which turned out to be super slow and inaccurate. 
@@ -46,12 +58,21 @@
 				work up into it and cut away more material than was intended.</li>
 			</ul>
 
-			<div id="manufacture-slideshow" style="text-align: center"><?php include "slideshow.php" ?></div>
+			<div id="manufacture-slideshow" style="text-align: center">
+				<?php
+					$width = "500";
+					$images = array(
+						"images/Robot Arm Mk2/manufacture/machining.jpg",
+						"images/Robot Arm Mk2/manufacture/roughing pass.jpg"
+					);
+					include "features/slideshow.php" 
+				?>
+			</div>
 
 			<p>To remedy this, I redesigned a bit and also used 2D toolpaths, which gave a much more accurate result in much less time.
 			I also switched to 3/4" UHMW PE, which is stiffer than the HDPE I used before and also allowed me to make the parts thicker.</p>
 
-			<div id="machined-image"> <?php $width = "60"; include "expanding-image.php" ?> </div>
+			<div id="machined-image"> <?php $width = "60"; $src="images/Robot Arm Mk2/manufacture/one side.jpg"; include "features/expanding-image.php" ?> </div>
 
 			<hr><h3>Programming</h3>
 			<p>I'm using an Arduino to control the arm because it has easy low-level control and doesn't get interrupted. Since stepping the motors occurs on the order of
@@ -76,7 +97,7 @@
 	</div>
 </div>
 
-<?php include "footer.php" ?>
+<?php include "common/footer.php" ?>
 
 </body>
 </html>

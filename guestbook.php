@@ -9,13 +9,13 @@ if (isset($_GET["errorMessage"]))
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php include "head.php" ?>
+	<?php include "common/head.php" ?>
 	<link rel="stylesheet" href="style/guestbook.css">
 </head>
 
 <body>
 
-<?php include "header.php" ?>
+<?php include "common/header.php" ?>
 
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
@@ -23,7 +23,7 @@ if (isset($_GET["errorMessage"]))
 			<h2 id="content-header">Guest Log Book</h2>
 			<h3>Add yourself to the guest book:</h3><br>
 
-			<form name="guest-info" action="submit.php" method="POST">
+			<form name="guest-info" action="scripts/php/submit.php" method="POST">
 				<input type="text" name="name" placeholder="John Doe">
 				<span id="errorMessage"><?= $errorMessage ?></span><br>
 				<textarea rows="6" cols="60" name="message" placeholder="Message"></textarea><br>
@@ -33,7 +33,7 @@ if (isset($_GET["errorMessage"]))
 			<h3>See what other people have written:</h3><br>
 			<table border="1" style="width: 100%;">
 				<tr id="header-row"><td style="width:200px;">Date</td><td>Name</td><td>Message</td></tr>
-				<?php include "guestbook-contents.php" ?>
+				<?php include "scripts/php/guestbook-contents.php" ?>
 			</table>
 
 		</div>
@@ -41,7 +41,7 @@ if (isset($_GET["errorMessage"]))
 	</div>
 </div>
 
-<?php include "footer.php" ?>
+<?php include "common/footer.php" ?>
 
 </body>
 </html>

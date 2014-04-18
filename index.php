@@ -2,21 +2,22 @@
 <html lang="en">
 
 <head>
-	<?php include "head.php" ?>
+	<?php include "common/head.php" ?>
 	<link rel="stylesheet" href="style/index.css">
-	<script type="text/javascript" src="scripts/index.js"></script>
 </head>
 
 <body>
 
-<?php include "header.php" ?>
+<?php include "common/header.php" ?>
 
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
 		<div id="content" class="sidebar-or-content">
 			<h2 id="content-header">At a Glance</h2>
 
-			<div id="rocks-image"> <?php $width=100; include "expanding-image.php" ?> </div>
+			<div id="rocks-image"> 
+				<?php $width=100; $src="images/me2.jpg"; include "features/expanding-image.php" ?> 
+			</div>
 
 			<p>Hi - welcome to my website! I wrote it from scratch for my web programming class.
 			Hope you like it! Visit the <a href="guestbook.php">guest book</a> if you'd like.</p>
@@ -60,7 +61,7 @@
 	</div>
 </div>
 
-<?php include "footer.php" ?>
+<?php include "common/footer.php" ?>
 
 </body>
 </html>

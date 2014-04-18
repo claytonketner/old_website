@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php include "head.php" ?>
+	<?php include "common/head.php" ?>
 	<link rel="stylesheet" href="style/about.css">
 	<script type="text/javascript" src="scripts/about.js"></script>
 </head>
 
 <body>
 
-<?php include "header.php" ?>
+<?php include "common/header.php" ?>
 
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
@@ -51,16 +51,26 @@
 				friends and family, and combining my ME and CS skills by tinkering with robotics and other side 
 				projects.</p>
 
-				<div id="snowboard-image"> <?php $width=100; include "expanding-image.php" ?> </div>
-				<div id="assembly-image"> <?php $width=100; include "expanding-image.php" ?> </div>
+				<div id="snowboard-image"> 
+					<?php $width=100; $src="images/about/snowboarding.jpg"; include "features/expanding-image.php" ?> 
+				</div>
+				<div id="assembly-image"> 
+					<?php $width=100; $src="images/about/assembly.jpg"; include "features/expanding-image.php" ?> 
+				</div>
 
 				<p>In high school I rowed for the NorCal crew team for three years. My third year, I qualified for the 
 				USRowing Youth National Championships in Cincinnati, OH in the lightweight double as stroke seat. 
 				My boatmate, Dru, and I finished 8th in the nation!</p>
 
-				<div id="adjusting-image"> <?php $width=100; include "expanding-image.php" ?> </div>
-				<div id="double-image"> <?php $width=100; include "expanding-image.php" ?> </div>
-				<div id="overhead-image"> <?php $width=100; include "expanding-image.php" ?> </div>
+				<div id="adjusting-image">
+					<?php $width=100; $src="images/about/adjusting the boat.jpg"; include "features/expanding-image.php" ?> 
+				</div>
+				<div id="double-image">
+					<?php $width=100; $src="images/about/me jeremy double.jpg"; include "features/expanding-image.php" ?> 
+				</div>
+				<div id="overhead-image">
+					<?php $width=100; $src="images/about/up and overhead.jpg"; include "features/expanding-image.php" ?> 
+				</div>
 
 			</div>
 
@@ -71,7 +81,7 @@
 	</div>
 </div>
 
-<?php include "footer.php" ?>
+<?php include "common/footer.php" ?>
 
 </body>
 </html>

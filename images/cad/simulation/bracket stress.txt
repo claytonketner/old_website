@@ -1,0 +1,6 @@
+TITLE
+Stress Analysis
+
+DESCRIPTION
+Analysis of a bracket using a shell 2-D simplification to
+reduce computation time.
