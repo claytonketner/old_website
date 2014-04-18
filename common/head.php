@@ -1,6 +1,8 @@
 <meta charset="utf-8"/>
 <title>Clayton Salinger Ketner</title>
 
+<link rel="icon" type="image/png" href="favicon.png">
+
 <link rel="stylesheet" href="style/general.css">
 <link rel="stylesheet" href="style/header.css">
 <link rel="stylesheet" href="style/fonts.css">
