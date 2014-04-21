@@ -11,7 +11,9 @@
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
 		<div id="content" class="sidebar-or-content">
-			<h2 id="content-header">Robotic Arm Mk2</h2> <a href="#results">Skip to result</a>
+			<h2 id="content-header">Robotic Arm Mk2</h2> 
+			<span id="date">Summer 2012</span><br>
+			<a href="#results">Skip to result</a>
 
 			<p>This is the second version of a robotic arm I made over the summer of 2012. I worked on it on and off over two months.</p>
 

@@ -11,7 +11,9 @@
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
 		<div id="content" class="sidebar-or-content">
-			<h2 id="content-header">Senior Project Robot</h2> <a href="#results">Skip to result</a>
+			<h2 id="content-header">Senior Project Robot</h2> 
+			<span id="date">Fall 2012</span><br>
+			<a href="#results">Skip to result</a>
 
 			<h3>ASME 2013 Student Design Competition</h3>
 			<p>For my senior project class (AME 441) I chose to enter the 
