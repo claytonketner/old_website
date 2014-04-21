@@ -2,7 +2,7 @@
 {
 	display: inline-block;
 	position: relative;
-	min-height: 100px;
+	height: 100px;
 	overflow: hidden;
 	width: 100%;
 	border-radius: 5px;

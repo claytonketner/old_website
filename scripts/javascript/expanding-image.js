@@ -4,6 +4,8 @@ var showHideSpeed = 400;
 
 $(document).ready(function()
 {
+	prepareImages();
+	
 	$(".expanding-image-wrapper").ready(function()
 	{
 		prepareImages();
