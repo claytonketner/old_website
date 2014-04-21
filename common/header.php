@@ -18,7 +18,7 @@
 	</div>
 
 	<div id="navBar-wrapper">
-		<div id="navBar" class="content-sized">
+		<nav id="navBar" class="content-sized">
 			<div id="textNav">
 				<div class="navItem"><a href="index.php">At a Glance</a></div>
 				<div class="navItem"><a href="about.php">About</a></div>
@@ -26,7 +26,14 @@
 				<div class="navItem"><a href="introrobotics.php">Intro to Robotics</a></div>
 				<div class="navItem"><a href="seniorprojectrobot.php">Senior Project Robot</a></div>
 				<!-- <div class="navItem"><a href="seniordesign.php">Senior Design Project</a></div> -->
-				<div class="navItem"><a href="hammerstand.php">Hammer Stand</a></div>
+				<div class="navItem dropdown"><span>3D Printing</span>
+					<div class="dropdown-items">
+					<ul>
+						<li><a href="hammerstand.php">Hammer Microphone Stand</a></li>
+						<li><a href="uar-armbracket.php">UAR Arm Bracket</a></li>
+					</ul>
+					</div>
+				</div>
 				<div class="navItem lastNavItem"><a href="cad.php">CAD Work</a></div>
 				<br>
 				<!-- <div class="navItem"><a href="3dprinting.php">3D Printing</a></div> -->
@@ -37,6 +44,6 @@
 				<div class="navItem"><a href="http://www.github.com/claytonketner" target="_blank"><img src="images/icons/github icon.png" alt="github"></a></div>
 			</div>
 			<div style="clear: both;"></div>
-		</div>
+		</nav>
 	</div>
 </div>

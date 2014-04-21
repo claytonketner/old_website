@@ -68,6 +68,7 @@
 	font-family: "Open Sans", Helvetica, sans-serif;
 	font-size: 12px;
 	/*word-wrap: break-word;*/
+	position: relative;
 
 	text-align: left;
 	float: left;
@@ -82,7 +83,7 @@
 	text-decoration: none;
 }
 
-#textNav a:hover
+#textNav a:hover,.dropdown:hover span,.dropdown.expanded span,.dropdown:hover:before,.dropdown.expanded:before
 {
 	color: white;
 }
@@ -102,6 +103,7 @@
 
 .navItem
 {
+	position: relative;
 	color: #C4C4C4;
 	float: left;
 	display: inline-block;
