@@ -22,15 +22,21 @@
 			<div id="textNav">
 				<div class="navItem"><a href="index.php">At a Glance</a></div>
 				<div class="navItem"><a href="about.php">About</a></div>
-				<div class="navItem"><a href="robotarmmk2.php">Robot Arm Mk2</a></div>
-				<div class="navItem"><a href="introrobotics.php">Intro to Robotics</a></div>
-				<div class="navItem"><a href="seniorprojectrobot.php">Senior Project Robot</a></div>
-				<!-- <div class="navItem"><a href="seniordesign.php">Senior Design Project</a></div> -->
-				<div class="navItem dropdown"><span>3D Printing</span>
+				<div class="navItem dropdown"><span>Robotics</span>
 					<div class="dropdown-items">
 					<ul>
-						<li><a href="hammerstand.php">Hammer Microphone Stand</a></li>
+						<li><a href="robotarmmk2.php">Robot Arm Mk2</a></li>
+						<li><a href="introrobotics.php">Intro to Robotics</a></li>
+						<li><a href="seniorprojectrobot.php">Senior Project Robot</a></li>
+					</ul>
+					</div>
+				</div>
+				<!-- <div class="navItem"><a href="seniordesign.php">Senior Design Project</a></div> -->
+				<div class="navItem dropdown"><span>Design &amp; 3D Printing</span>
+					<div class="dropdown-items">
+					<ul>
 						<li><a href="uar-armbracket.php">UAR Arm Bracket</a></li>
+						<li><a href="hammerstand.php">Hammer Microphone Stand</a></li>
 					</ul>
 					</div>
 				</div>
