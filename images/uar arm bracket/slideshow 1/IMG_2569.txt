@@ -1,0 +1,6 @@
+TITLE
+Tube holder with nut
+
+DESCRIPTION
+A screw nut can be press-fit as shown. This is for the screw that holds the carbon fiber tube in place and keeps it
+from rotating. The tight fit between this part and the tube also helps hold the tube steady.

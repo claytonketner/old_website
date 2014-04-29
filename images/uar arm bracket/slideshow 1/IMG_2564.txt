@@ -1,0 +1,6 @@
+TITLE
+Tube Holder
+
+DESCRIPTION
+This part holds the carbon fiber arm. It slides into the arm bracket. You can see the screw hole that's used to keep
+the arm from rotating.
