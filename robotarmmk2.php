@@ -92,7 +92,17 @@
 
 			<div style="text-align: center;"><iframe width="960" height="540" src="//www.youtube.com/embed/aLx_HQSdqt0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-			<p>That all works, but I'm still working on the hard part - writing the MATLAB code that will do inverse kinematics.</p>
+			<p>Here's a video of the final functionality of the arm. It shows how the inverse kinematics work. The arm
+			can also accept a number of g-code-like commands:</p>
+
+			<ul>
+			<li>'g111222' -- Go to the two angles specified, where 111 is the angle for the first segment, and 222 is the angle for the second segment.</li>
+			<li>'s111222' -- Set the current angles of the arm segments - follows the same convention as the "go to" command.</li>
+			<li>'e#' -- Enable or disable motor holding torque (# = 1 enables, # = 0 disables)</li>
+			<li>'p' -- Go to parking position</li>
+			</ul>
+
+			<iframe width="960" height="540" src="//www.youtube.com/embed/vE6wKMVQNNQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
 		</div>
 		<div style="clear:both;"></div>
