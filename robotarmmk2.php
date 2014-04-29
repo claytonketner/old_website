@@ -86,12 +86,14 @@
 			via the USB serial cable to tell the arm which angles to rotate to, among other things. This way, I can get MATLAB to perform the heavy calculations and send 
 			them to the arm automatically.</p>
 
-			<hr><h3 id="results">Result</h3>
+			<hr><h3>First Run</h3>
+			
 			<p>Here's a short demo showing the arm's Maiden voyage. It shows me compiling the driver code on my computer and sending it to the arduino. The arm then
 			does a simple test, where the bottom segment rotates while the top segment stays vertical.</p>
 
 			<div style="text-align: center;"><iframe width="960" height="540" src="//www.youtube.com/embed/aLx_HQSdqt0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
+			<hr><h3 id="results">Final Result</h3>
 			<p>Here's a video of the final functionality of the arm. It shows how the inverse kinematics work. The arm
 			can also accept a number of g-code-like commands:</p>
 
