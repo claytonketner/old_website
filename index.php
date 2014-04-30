@@ -13,7 +13,7 @@
 <div id="all-content-wrapper">
 	<div id="content-wrapper" class="content-sized">
 		<div id="content" class="sidebar-or-content">
-			<h2 id="content-header">At a Quick Glance</h2>
+			<h2 id="content-header">At a Glance</h2>
 
 			<div id="rocks-image"> 
 				<?php $width=100; $src="images/me2.jpg"; include "features/expanding-image.php" ?> 
