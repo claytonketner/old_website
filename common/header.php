@@ -3,7 +3,7 @@
 		<div id="banner" class="content-sized">
 			<a href="index.php">
 				<div id="title-area">
-					<div id="title">Clayton S Ketner</div>
+					<div id="title">Clayton Salinger Ketner</div>
 					<div id="subtitle">Mechanical Engineering and Computer Science<br>
 						at the University of Southern California</div>
 					</div>
