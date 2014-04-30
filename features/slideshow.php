@@ -73,7 +73,11 @@
 				for ($i = 0; $i < count($images); $i++)
 				{
 					$src = $images[$i];
-					echo "<img src='" . $src . "' style='left:" . $i * $width . "px'>";
+					$fancyboxTitle = $information[$i]["title"] . " -- " . $information[$i]["description"];
+					require_once("utils/utils.php");
+					$fancyboxTitle = convert_single_quote($fancyboxTitle);
+					echo "<a href='" . $src . "' class='fancybox' title='" . $fancyboxTitle .
+					"' rel='" . $images[1] . "'><img src='" . $src . "' style='left:" . $i * $width . "px'></a>";
 				}
 			?>
 		</div>

@@ -49,7 +49,7 @@ $("document").ready(function()
 	{
 		var pictureWidth = calculateWidth(container); // Get the numbers from the width css property
 
-		$(container).find(".slideshow-image img").each(function(imgIndex)
+		$(container).find(".slideshow-image a img").each(function(imgIndex)
 		{
 			$(this).stop();
 			$(this).show();
@@ -125,7 +125,7 @@ function prepareSlideshow(container)
 	//
 	// Line images up for viewing and center vertically if necessary
 	//
-	$(container).find(".slideshow-image img").each(function(index)
+	$(container).find(".slideshow-image a img").each(function(index)
 	{
 		$(this).load(function()
 		{
@@ -149,7 +149,7 @@ function countPictures(container)
 {
 	var numberOfPictures = 0;
 
-	$(container).find(".slideshow-image img").each(function()
+	$(container).find(".slideshow-image a img").each(function()
 	{
 		numberOfPictures = numberOfPictures + 1;
 	});
@@ -170,7 +170,7 @@ function calculateWidth(container)
 function calculateCurrentPictureIndex(container)
 {
 	var numberOfPictures = countPictures(container);
-	var firstImageLeft = parseInt($(container).find(".slideshow-image img").first().css("left"), 10);
+	var firstImageLeft = parseInt($(container).find(".slideshow-image a img").first().css("left"), 10);
 
 	// Make sure it's not animating
 	while (firstImageLeft % calculateWidth(container) != 0)

@@ -13,6 +13,13 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
+<link rel="stylesheet" href="features/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="features/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script> -->
+
+
 <script type="text/javascript" src="scripts/javascript/header.js"></script>
 <script type="text/javascript" src="scripts/javascript/general.js"></script>
 <script type="text/javascript" src="scripts/javascript/dropdown.js"></script>
